@@ -84,6 +84,32 @@ export default function Portfolio() {
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
+            <h3 className="text-lg font-semibold text-slate-900">AI-powered expenses bot tracker</h3>
+
+            {/* EDIT: One sentence describing the project and what you learned */}
+            <p className="text-slate-600 text-sm leading-relaxed">
+             Helps you to manage your expenses. Simply type "10 rm on rice", AI will categorise 
+             the expense and add it into the database. Also, it will generate the report for you.
+            </p>
+
+            {/* EDIT: Technologies used in this project */}
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Pandas</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">MySQL</span>
+            </div>
+
+            {/* EDIT: Your GitHub link for this project */}
+            <a href="https://github.com/sanzhar-kuatov/AI-Powered-Telegram-Expense-Tracker-Bot"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
+              View on GitHub →
+            </a>
+          </div>
+
+          {/* ── PROJECT 2 ── */}
+          <div className="border border-slate-200 rounded-xl p-6 space-y-3">
+
+            {/* EDIT: Project name */}
             <h3 className="text-lg font-semibold text-slate-900">AI Life Coach</h3>
 
             {/* EDIT: One sentence describing the project and what you learned */}
@@ -95,40 +121,14 @@ export default function Portfolio() {
             {/* EDIT: Technologies used in this project */}
             <div className="flex flex-wrap gap-2">
               <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Tableau</span>
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Pandas</span>
-            </div>
-
-            {/* EDIT: Your GitHub link for this project */}
-            <a href="https://github.com/netizen-experience" target="_blank" rel="noopener noreferrer"
-               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
-              View on GitHub →
-            </a>
-          </div>
-
-          {/* ── PROJECT 2 ── */}
-          <div className="border border-slate-200 rounded-xl p-6 space-y-3">
-
-            {/* EDIT: Project name */}
-            <h3 className="text-lg font-semibold text-slate-900">Student Grade Predictor</h3>
-
-            {/* EDIT: One sentence describing the project and what you learned */}
-            <p className="text-slate-600 text-sm leading-relaxed">
-              Machine learning model that predicts final exam grades from attendance and assignment scores.
-              Achieved 87% accuracy using a Random Forest classifier trained on anonymised university data.
-            </p>
-
-            {/* EDIT: Technologies used in this project */}
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
               <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Scikit-learn</span>
               <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Jupyter</span>
             </div>
 
             {/* EDIT: Your GitHub link for this project */}
-            <a href="https://github.com/netizen-experience" target="_blank" rel="noopener noreferrer"
+            <a href="https://askdcode.com/lifetune/login"
                className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
-              View on GitHub →
+              View on Project →
             </a>
           </div>
 
