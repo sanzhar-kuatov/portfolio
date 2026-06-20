@@ -84,12 +84,12 @@ export default function Portfolio() {
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
-            <h3 className="text-lg font-semibold text-slate-900">defffffffffffff</h3>
+            <h3 className="text-lg font-semibold text-slate-900">AI Life Coach</h3>
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
-              Interactive data visualisation dashboard built with Python and Tableau.
-              Analysed 12 months of retail sales data to surface weekly trends and top-performing products.
+              An online AI Life Coach - is a AI developed to help you with some life advices.
+              This AI is for questions like "How to become succesfull?" and similar.
             </p>
 
             {/* EDIT: Technologies used in this project */}
