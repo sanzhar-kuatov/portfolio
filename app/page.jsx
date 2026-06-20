@@ -6,27 +6,27 @@ export default function Portfolio() {
       <section className="text-center space-y-4">
 
         {/* EDIT: Your full name */}
-        <h1 className="text-5xl font-bold text-slate-900">Teo Kuo Hong</h1>
+        <h1 className="text-5xl font-bold text-slate-900">Sanzhar Kuatov</h1>
 
         {/* EDIT: Your job title or tagline */}
-        <p className="text-xl text-indigo-600 font-medium">Aspiring Data Scientist</p>
+        <p className="text-xl text-indigo-600 font-medium">Aspiring Software Engineer</p>
 
         {/* Contact links */}
         <div className="flex justify-center gap-6 text-sm text-slate-500">
 
           {/* EDIT: Your email address */}
-          <a href="mailto:kuohong@netizenexperience.com" className="hover:text-indigo-600 transition-colors">
-            kuohong@netizenexperience.com
+          <a href="mailto:sanzarkuatov@gmail.com" className="hover:text-indigo-600 transition-colors">
+            sanzarkuatov@gmail.com
           </a>
 
           {/* EDIT: Your GitHub URL */}
-          <a href="https://github.com/netizen-experience" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/sanzhar-kuatov" target="_blank" rel="noopener noreferrer"
              className="hover:text-indigo-600 transition-colors">
             GitHub
           </a>
 
           {/* EDIT: Your LinkedIn URL */}
-          <a href="https://my.linkedin.com/company/netizen-experience" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/sanzhar-kuatov-a8809431a/" target="_blank" rel="noopener noreferrer"
              className="hover:text-indigo-600 transition-colors">
             LinkedIn
           </a>
@@ -47,9 +47,14 @@ export default function Portfolio() {
 
         {/* EDIT: Your 2–3 sentence bio */}
         <p className="text-slate-600 leading-relaxed">
-          Final year student at Sunway University passionate about data analytics and machine learning.
-          I enjoy turning messy datasets into clear insights and building tools that help people make
-          better decisions. Currently seeking internship and graduate opportunities in data science.
+          Software Engineering student (BSc, Sunway University × Lancaster University,
+          GPA 3.7) with proven experience building production-grade full-stack applications,
+          automation systems, and embedded software. WorldSkills Kazakhstan 2023
+          medalist - built a cross-platform rental platform in 48 hours under competition
+          conditions. Skilled in Node.js, REST API design, system automation, and loT/
+          embedded integration. Actively seeking software engineering internships in
+          Singapore, Malaysia, or Europe where I can contribute to real engineering teams
+          and ship impactful products.
         </p>
       </section>
 
@@ -60,12 +65,12 @@ export default function Portfolio() {
         {/* EDIT: Replace or add skills. Each skill is a <span> tag — just copy and paste one. */}
         <div className="flex flex-wrap gap-2">
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Python</span>
-          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">SQL</span>
-          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">React</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">MySQL</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Rest API</span>
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Git</span>
-          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Tableau</span>
-          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Pandas</span>
-          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Scikit-learn</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Razorpay</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Javascript</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">AI</span>
         </div>
       </section>
 
@@ -79,7 +84,7 @@ export default function Portfolio() {
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
-            <h3 className="text-lg font-semibold text-slate-900">Sales Dashboard</h3>
+            <h3 className="text-lg font-semibold text-slate-900">defffffffffffff</h3>
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
