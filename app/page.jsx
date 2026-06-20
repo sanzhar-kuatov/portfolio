@@ -141,13 +141,13 @@ export default function Portfolio() {
 
         <div className="space-y-1">
           {/* EDIT: Your degree */}
-          <p className="font-semibold text-slate-900">BSc Computer Science</p>
+          <p className="font-semibold text-slate-900">BSc Software Engineering</p>
 
           {/* EDIT: Your university */}
           <p className="text-slate-600">Sunway University</p>
 
           {/* EDIT: Your expected graduation year */}
-          <p className="text-slate-500 text-sm">Expected Graduation: 2026</p>
+          <p className="text-slate-500 text-sm">Expected Graduation: Aug 2027</p>
         </div>
       </section>
 
@@ -162,19 +162,19 @@ export default function Portfolio() {
         <div className="flex flex-col sm:flex-row gap-3">
 
           {/* EDIT: Your email address */}
-          <a href="mailto:kuohong@netizenexperience.com"
+          <a href="mailto:sanzarkuatov@gmail.com"
              className="inline-block border border-slate-300 text-slate-700 px-5 py-2.5 rounded-lg text-sm font-medium hover:border-indigo-400 hover:text-indigo-600 transition-colors text-center">
-            kuohong@netizenexperience.com
+            sanzarkuatov@gmail.com
           </a>
 
           {/* EDIT: Your GitHub URL */}
-          <a href="https://github.com/netizen-experience" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/sanzhar-kuatov" target="_blank" rel="noopener noreferrer"
              className="inline-block border border-slate-300 text-slate-700 px-5 py-2.5 rounded-lg text-sm font-medium hover:border-indigo-400 hover:text-indigo-600 transition-colors text-center">
             GitHub
           </a>
 
           {/* EDIT: Your LinkedIn URL */}
-          <a href="https://my.linkedin.com/company/netizen-experience" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/sanzhar-kuatov-a8809431a/" target="_blank" rel="noopener noreferrer"
              className="inline-block border border-slate-300 text-slate-700 px-5 py-2.5 rounded-lg text-sm font-medium hover:border-indigo-400 hover:text-indigo-600 transition-colors text-center">
             LinkedIn
           </a>
@@ -184,7 +184,7 @@ export default function Portfolio() {
       {/* ─── FOOTER ────────────────────────────────────────────────── */}
       <footer className="text-center text-slate-400 text-sm pt-4 pb-8 border-t border-slate-100">
         {/* EDIT: Your name */}
-        <p>© 2026 Teo Kuo Hong · Built with Next.js & Tailwind CSS</p>
+        <p>© 2026 Sanzhar Kuatov· Built with Next.js & Tailwind CSS</p>
       </footer>
 
     </main>
