@@ -88,8 +88,7 @@ export default function Portfolio() {
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
-             Helps you to manage your expenses. Simply type "10 rm on rice", AI will categorise 
-             the expense and add it into the database. Also, it will generate the report for you.
+             Built a Telegram bot that uses Claude AI to automatically record and categorize user expenses (food, utilities, etc.) and generate detailed spending reports for any custom date range
             </p>
 
             {/* EDIT: Technologies used in this project */}
@@ -110,12 +109,11 @@ export default function Portfolio() {
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
-            <h3 className="text-lg font-semibold text-slate-900">AI Life Coach</h3>
+            <h3 className="text-lg font-semibold text-slate-900">AI Growth Coach Platform</h3>
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
-              An online AI Life Coach - is a AI developed to help you with some life advices.
-              This AI is for questions like "How to become succesfull?" and similar.
+              Developed a full-stack web platform where users track personal goals, habits, and daily reflections, guided by an AI coach; integrated Razorpay to handle subscription payments
             </p>
 
             {/* EDIT: Technologies used in this project */}
@@ -128,7 +126,57 @@ export default function Portfolio() {
             {/* EDIT: Your GitHub link for this project */}
             <a href="https://askdcode.com/lifetune/login"
                className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
-              View on Project →
+              View Demo →
+            </a>
+          </div>
+
+          {/* ── PROJECT 3 ── Copy this block to add more projects */}
+          <div className="border border-slate-200 rounded-xl p-6 space-y-3">
+
+            {/* EDIT: Project name */}
+            <h3 className="text-lg font-semibold text-slate-900">Dicord Member Verifier</h3>
+
+            {/* EDIT: One sentence describing the project and what you learned */}
+            <p className="text-slate-600 text-sm leading-relaxed">
+             Automated student verification for Sunway Game Development Club’s Discord server using Google Sheets as a live member registry, eliminating manual verification entirely
+            </p>
+
+            {/* EDIT: Technologies used in this project */}
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Google Sheets API</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Dicord Bot</span>
+            </div>
+
+            {/* EDIT: Your GitHub link for this project */}
+            <a href="https://github.com/sanzhar-kuatov/Registrating-SGDC-Members"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
+              View on GitHub →
+            </a>
+          </div>
+
+          {/* ── PROJECT 4 ── Copy this block to add more projects */}
+          <div className="border border-slate-200 rounded-xl p-6 space-y-3">
+
+            {/* EDIT: Project name */}
+            <h3 className="text-lg font-semibold text-slate-900">Automated Birthday Card Sender</h3>
+
+            {/* EDIT: One sentence describing the project and what you learned */}
+            <p className="text-slate-600 text-sm leading-relaxed">
+             Built a system for companies to auto-generate personalized birthday card images and distribute them via email to all departments; deployed during internship at Galanz Bottlers
+            </p>
+
+            {/* EDIT: Technologies used in this project */}
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Pandas</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">MySQL</span>
+            </div>
+
+            {/* EDIT: Your GitHub link for this project */}
+            <a href="https://github.com/sanzhar-kuatov/happy_birthday_sender"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
+              View on GitHub →
             </a>
           </div>
 
