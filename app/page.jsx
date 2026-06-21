@@ -47,14 +47,10 @@ export default function Portfolio() {
 
         {/* EDIT: Your 2–3 sentence bio */}
         <p className="text-slate-600 leading-relaxed">
-          Software Engineering student (BSc, Sunway University × Lancaster University,
-          GPA 3.7) with proven experience building production-grade full-stack applications,
-          automation systems, and embedded software. WorldSkills Kazakhstan 2023
-          medalist - built a cross-platform rental platform in 48 hours under competition
-          conditions. Skilled in Node.js, REST API design, system automation, and loT/
-          embedded integration. Actively seeking software engineering internships in
-          Singapore, Malaysia, or Europe where I can contribute to real engineering teams
-          and ship impactful products.
+          Second-year Software Engineering student at Sunway University × Lancaster University (GPA 3.7, Dean’s List every semester) 
+          with internship experience and a portfolio of AI-powered and automation systems built with Python, Node.js, and Claude AI. 
+          Comfortable across the full stack — from Telegram bots and REST APIs to web platforms with payment integration. 
+          Seeking a software engineering or AI/ML internship to solve real problems and grow fast.
         </p>
       </section>
 
