@@ -176,6 +176,62 @@ export default function Portfolio() {
             </a>
           </div>
 
+          {/* ── PROJECT 5 ── Copy this block to add more projects */}
+          <div className="border border-slate-200 rounded-xl p-6 space-y-3">
+
+            {/* EDIT: Project name */}
+            <h3 className="text-lg font-semibold text-slate-900">Datastation App</h3>
+
+            {/* EDIT: One sentence describing the project and what you learned */}
+            <p className="text-slate-600 text-sm leading-relaxed">
+             Designed and developed an app for Datastation, which is a device for scanning and uploading books to library robot database.
+            </p>
+
+            {/* EDIT: Technologies used in this project */}
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Raspberry Pi</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">SQLite</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">NFS</span>
+            </div>
+
+            {/* EDIT: Your GitHub link for this project */}
+            <a href="https://github.com/sanzhar-kuatov/Gemmove_Website"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
+              View on GitHub →
+            </a>
+          </div>
+
+          {/* ── PROJECT 6 ── Copy this block to add more projects */}
+          <div className="border border-slate-200 rounded-xl p-6 space-y-3">
+
+            {/* EDIT: Project name */}
+            <h3 className="text-lg font-semibold text-slate-900">GemMove Product Landing Page</h3>
+
+            {/* EDIT: One sentence describing the project and what you learned */}
+            <p className="text-slate-600 text-sm leading-relaxed">
+             Designed and developed a responsive one-page product landing website for showcasing industrial filters and liquidizers. 
+              Built entirely with AI-assisted development (Claude Code), with a focus on modern UI, responsive design, and clear product presentation.
+            </p>
+
+            {/* EDIT: Technologies used in this project */}
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">HTML</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">CSS</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Vercel</span>
+            </div>
+
+            {/* EDIT: Your GitHub link for this project */}
+            <a href="https://github.com/sanzhar-kuatov/Gemmove_Website"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
+              View on GitHub →
+            </a>
+            <a href="https://gemmove-website.vercel.app/"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
+              View Demo →
+            </a>
+          </div>
+
         </div>
       </section>
 
