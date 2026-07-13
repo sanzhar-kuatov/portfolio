@@ -1,3 +1,5 @@
+import CertificatesSection from './components/CertificatesSection'
+
 export default function Portfolio() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-16 space-y-20">
@@ -34,7 +36,7 @@ export default function Portfolio() {
 
         {/* Download Resume button — replace /resume.pdf in /public with your own PDF */}
         <div className="pt-2">
-          <a href="/resume.pdf" download
+          <a href="/Sanzhar_Kuatov_Resume.pdf" download
              className="inline-block bg-indigo-600 text-white px-6 py-2.5 rounded-lg text-sm font-medium hover:bg-indigo-700 transition-colors">
             Download Resume
           </a>
@@ -250,6 +252,9 @@ export default function Portfolio() {
           <p className="text-slate-500 text-sm">Expected Graduation: Aug 2027</p>
         </div>
       </section>
+
+      {/* ─── CERTIFICATES ──────────────────────────────────────────── */}
+      <CertificatesSection />
 
       {/* ─── CONTACT ───────────────────────────────────────────────── */}
       <section>
