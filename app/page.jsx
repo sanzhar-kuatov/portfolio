@@ -11,7 +11,7 @@ export default function Portfolio() {
         <h1 className="text-5xl font-bold text-slate-900">Sanzhar Kuatov</h1>
 
         {/* EDIT: Your job title or tagline */}
-        <p className="text-xl text-indigo-600 font-medium">Aspiring Software Engineer</p>
+        <p className="text-xl text-indigo-600 font-medium">Software Engineering Student · Building AI-powered products</p>
 
         {/* Contact links */}
         <div className="flex justify-center gap-6 text-sm text-slate-500">
@@ -49,11 +49,38 @@ export default function Portfolio() {
 
         {/* EDIT: Your 2–3 sentence bio */}
         <p className="text-slate-600 leading-relaxed">
-          Second-year Software Engineering student at Sunway University × Lancaster University (GPA 3.7, Dean’s List every semester) 
-          with internship experience and a portfolio of AI-powered and automation systems built with Python, Node.js, and Claude AI. 
-          Comfortable across the full stack — from Telegram bots and REST APIs to web platforms with payment integration. 
-          Seeking a software engineering or AI/ML internship to solve real problems and grow fast.
+          Final-year Software Engineering student at Sunway University × Lancaster University (GPA 3.7, Dean’s List every semester)
+          with hands-on internship experience automating HR and IT workflows at Galanz Bottlers, plus a portfolio of AI-powered and
+          automation systems built with Python, Node.js, and Claude AI. Comfortable across the full stack — from Telegram bots and REST APIs
+          to web platforms with payment integration. Seeking a software engineering or AI/ML internship to solve real problems and grow fast.
         </p>
+      </section>
+
+      {/* ─── EXPERIENCE ────────────────────────────────────────────── */}
+      <section>
+        <h2 className="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-200">Experience</h2>
+
+        <div className="border border-slate-200 rounded-xl p-6 space-y-3">
+          <div>
+            <h3 className="text-lg font-semibold text-slate-900">Automation Intern</h3>
+            {/* EDIT: Add your internship dates, e.g. "Jun 2023 – Aug 2023" */}
+            <p className="text-slate-600">Galanz Bottlers</p>
+          </div>
+
+          <ul className="list-disc list-outside pl-5 space-y-2 text-slate-600 text-sm leading-relaxed">
+            <li>Automated the company's daily birthday-card process — pulling that day's birthdays from the employee database and auto-generating and emailing personalized cards to every department, removing a manual daily HR task.</li>
+            <li>Built a Telegram bot that returns any employee's details in a single message, replacing a multi-click lookup process and cutting search time for HR and staff.</li>
+            <li>Built an HR FAQ Telegram bot backed by a database of the most common employee questions, escalating anything outside that list to a dedicated web dashboard for HR to answer — reducing repeat walk-in questions.</li>
+            <li>Built a Telegram bridge to the company's IT Helpdesk system, extending IT support access to offices outside Almaty that had no direct system access.</li>
+          </ul>
+
+          <div className="flex flex-wrap gap-2">
+            <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
+            <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Telegram Bot API</span>
+            <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">MySQL</span>
+            <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Automation</span>
+          </div>
+        </div>
       </section>
 
       {/* ─── EDUCATION ─────────────────────────────────────────────── */}
@@ -100,13 +127,18 @@ export default function Portfolio() {
 
         {/* EDIT: Replace or add skills. Each skill is a <span> tag — just copy and paste one. */}
         <div className="flex flex-wrap gap-2">
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Data Structures &amp; Algorithms</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">OOP</span>
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Python</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Java</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">TypeScript</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Javascript</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">SQL</span>
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">MySQL</span>
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Rest API</span>
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Git</span>
-          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Razorpay</span>
-          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Javascript</span>
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">AI</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Razorpay</span>
         </div>
       </section>
 
@@ -124,7 +156,7 @@ export default function Portfolio() {
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
-             Built a Telegram bot that uses Claude AI to automatically record and categorize user expenses (food, utilities, etc.) and generate detailed spending reports for any custom date range
+             Built a Telegram bot that uses Claude AI to automatically record and categorize personal expenses (food, utilities, etc.) and generate detailed spending reports for any custom date range
             </p>
 
             {/* EDIT: Technologies used in this project */}
@@ -149,7 +181,7 @@ export default function Portfolio() {
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
-              Developed a full-stack web platform where users track personal goals, habits, and daily reflections, guided by an AI coach; integrated Razorpay to handle subscription payments
+              Developed a full-stack web platform, used by 100+ users, where they track personal goals, habits, and daily reflections guided by an AI coach; integrated Razorpay to handle subscription payments
             </p>
 
             {/* EDIT: Technologies used in this project */}
@@ -170,11 +202,11 @@ export default function Portfolio() {
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
-            <h3 className="text-lg font-semibold text-slate-900">Dicord Member Verifier</h3>
+            <h3 className="text-lg font-semibold text-slate-900">Discord Member Verifier</h3>
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
-             Automated student verification for Sunway Game Development Club’s Discord server using Google Sheets as a live member registry, eliminating manual verification entirely
+             Automated student verification for Sunway Game Development Club’s Discord server using Google Sheets as a live member registry — verified 15+ members and cut manual onboarding time by 5–10 minutes per signup
             </p>
 
             {/* EDIT: Technologies used in this project */}
@@ -224,7 +256,7 @@ export default function Portfolio() {
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
-             Designed and developed an app for Datastation, which is a device for scanning and uploading books to library robot database.
+             Designed and developed an app for Datastation, a device that scans library books and syncs them over the network into a library robot's database — handling 200+ book scans in a single sync.
             </p>
 
             {/* EDIT: Technologies used in this project */}
@@ -236,7 +268,7 @@ export default function Portfolio() {
             </div>
 
             {/* EDIT: Your GitHub link for this project */}
-            <a href="https://github.com/sanzhar-kuatov/Gemmove_Website"
+            <a href="https://github.com/sanzhar-kuatov/datastation_gui"
                className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
               View on GitHub →
             </a>
