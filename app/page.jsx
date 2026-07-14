@@ -36,7 +36,7 @@ export default function Portfolio() {
 
         {/* Download Resume button — replace /resume.pdf in /public with your own PDF */}
         <div className="pt-2">
-          <a href="/Sanzhar_Kuatov_Resume.pdf" download
+          <a href="/Sanzhar Kuatov - Resume.pdf" download
              className="inline-block bg-indigo-600 text-white px-6 py-2.5 rounded-lg text-sm font-medium hover:bg-indigo-700 transition-colors">
             Download Resume
           </a>
@@ -51,7 +51,7 @@ export default function Portfolio() {
         <p className="text-slate-600 leading-relaxed">
           Final-year Software Engineering student at Sunway University × Lancaster University (GPA 3.7, Dean’s List every semester)
           with hands-on internship experience automating HR and IT workflows at Galanz Bottlers, plus a portfolio of AI-powered and
-          automation systems built with Python, Node.js, and Claude AI. Comfortable across the full stack — from Telegram bots and REST APIs
+          automation systems built with Python, Node.js, and Claude AI. Comfortable across the full stack - from Telegram bots and REST APIs
           to web platforms with payment integration. Seeking a software engineering or AI/ML internship to solve real problems and grow fast.
         </p>
       </section>
@@ -68,9 +68,9 @@ export default function Portfolio() {
           </div>
 
           <ul className="list-disc list-outside pl-5 space-y-2 text-slate-600 text-sm leading-relaxed">
-            <li>Automated the company's daily birthday-card process — pulling that day's birthdays from the employee database and auto-generating and emailing personalized cards to every department, removing a manual daily HR task.</li>
+            <li>Automated the company's daily birthday-card process - pulling that day's birthdays from the employee database and auto-generating and emailing personalized cards to every department, removing a manual daily HR task.</li>
             <li>Built a Telegram bot that returns any employee's details in a single message, replacing a multi-click lookup process and cutting search time for HR and staff.</li>
-            <li>Built an HR FAQ Telegram bot backed by a database of the most common employee questions, escalating anything outside that list to a dedicated web dashboard for HR to answer — reducing repeat walk-in questions.</li>
+            <li>Built an HR FAQ Telegram bot backed by a database of the most common employee questions, escalating anything outside that list to a dedicated web dashboard for HR to answer - reducing repeat walk-in questions.</li>
             <li>Built a Telegram bridge to the company's IT Helpdesk system, extending IT support access to offices outside Almaty that had no direct system access.</li>
           </ul>
 
@@ -206,7 +206,7 @@ export default function Portfolio() {
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
-             Automated student verification for Sunway Game Development Club’s Discord server using Google Sheets as a live member registry — verified 15+ members and cut manual onboarding time by 5–10 minutes per signup
+             Automated student verification for Sunway Game Development Club’s Discord server using Google Sheets as a live member registry - verified 15+ members and cut manual onboarding time by 5-10 minutes per signup
             </p>
 
             {/* EDIT: Technologies used in this project */}
@@ -256,7 +256,7 @@ export default function Portfolio() {
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
-             Designed and developed an app for Datastation, a device that scans library books and syncs them over the network into a library robot's database — handling 200+ book scans in a single sync.
+             Designed and developed an app for Datastation, a device that scans library books and syncs them over the network into a library robot's database - handling 200+ book scans in a single sync.
             </p>
 
             {/* EDIT: Technologies used in this project */}
@@ -315,7 +315,7 @@ export default function Portfolio() {
         <h2 className="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-200">Contact</h2>
 
         <p className="text-slate-600 mb-4">
-          Open to internship and graduate opportunities — feel free to reach out.
+          Open to internship and graduate opportunities - feel free to reach out.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3">
