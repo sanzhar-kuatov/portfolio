@@ -56,6 +56,44 @@ export default function Portfolio() {
         </p>
       </section>
 
+      {/* ─── EDUCATION ─────────────────────────────────────────────── */}
+      <section>
+        <h2 className="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-200">Education</h2>
+
+        <div className="space-y-6">
+          <div className="space-y-1">
+            {/* EDIT: Your degree */}
+            <p className="font-semibold text-slate-900">BSc Software Engineering</p>
+
+            {/* EDIT: Your university */}
+            <p className="text-slate-600">Sunway University</p>
+
+            {/* EDIT: Your expected graduation year */}
+            <p className="text-slate-500 text-sm">Expected Graduation: Aug 2027</p>
+
+            <a href="https://docs.google.com/document/d/1pl2hxUMvKbF4hIPqrvi7sj3OFxAkdkkvSJiE9D5an7w/edit?usp=sharing"
+               target="_blank" rel="noopener noreferrer"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors pt-1">
+              View Projects & Assignments →
+            </a>
+          </div>
+
+          <div className="space-y-1">
+            <p className="font-semibold text-slate-900">Software Engineering</p>
+
+            <p className="text-slate-600">Alma Almaty Management College</p>
+
+            <p className="text-slate-500 text-sm">2021 – 2024 · GPA: 3.6</p>
+
+            <a href="https://cmab.edu.kz/?lang=en"
+               target="_blank" rel="noopener noreferrer"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors pt-1">
+              View College Website →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* ─── SKILLS ────────────────────────────────────────────────── */}
       <section>
         <h2 className="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-200">Skills</h2>
@@ -234,22 +272,6 @@ export default function Portfolio() {
             </a>
           </div>
 
-        </div>
-      </section>
-
-      {/* ─── EDUCATION ─────────────────────────────────────────────── */}
-      <section>
-        <h2 className="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-200">Education</h2>
-
-        <div className="space-y-1">
-          {/* EDIT: Your degree */}
-          <p className="font-semibold text-slate-900">BSc Software Engineering</p>
-
-          {/* EDIT: Your university */}
-          <p className="text-slate-600">Sunway University</p>
-
-          {/* EDIT: Your expected graduation year */}
-          <p className="text-slate-500 text-sm">Expected Graduation: Aug 2027</p>
         </div>
       </section>
 
