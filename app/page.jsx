@@ -166,6 +166,17 @@ export default function Portfolio() {
               <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">MySQL</span>
             </div>
 
+            {/* EDIT: Demo video (YouTube embed) */}
+            <div className="relative aspect-video rounded-lg overflow-hidden border border-slate-200">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/YGb23V2sEFM"
+                title="AI-powered expenses bot tracker demo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+
             {/* EDIT: Your GitHub link for this project */}
             <a href="https://github.com/sanzhar-kuatov/AI-Powered-Telegram-Expense-Tracker-Bot"
                className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
@@ -194,7 +205,7 @@ export default function Portfolio() {
             {/* EDIT: Your GitHub link for this project */}
             <a href="https://askdcode.com/lifetune/login"
                className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
-              View Demo →
+              View Website →
             </a>
           </div>
 
@@ -265,6 +276,17 @@ export default function Portfolio() {
               <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Raspberry Pi</span>
               <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">SQLite</span>
               <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">NFS</span>
+            </div>
+
+            {/* EDIT: Demo video (YouTube embed) */}
+            <div className="relative aspect-video rounded-lg overflow-hidden border border-slate-200">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/Ltjs949a8hU"
+                title="Datastation App demo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
 
             {/* EDIT: Your GitHub link for this project */}
