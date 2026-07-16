@@ -1,4 +1,5 @@
 import CertificatesSection from './components/CertificatesSection'
+import ProjectDemoButton from './components/ProjectDemoButton'
 
 export default function Portfolio() {
   return (
@@ -62,9 +63,32 @@ export default function Portfolio() {
 
         <div className="border border-slate-200 rounded-xl p-6 space-y-3">
           <div>
+            <h3 className="text-lg font-semibold text-slate-900">Lab Apprentice</h3>
+            <p className="text-slate-600">HUMAC Lab</p>
+            <p className="text-slate-500 text-sm">Feb 2025 – May 2026</p>
+          </div>
+
+          <ul className="list-disc list-outside pl-5 space-y-2 text-slate-600 text-sm leading-relaxed">
+            <li>Coordinated task tracking and sprint planning via Jira for a cross-functional team building a library robot from concept to deployment.</li>
+            <li>Assembled the robot's electrical and mechanical components, and set up its networking infrastructure - configuring access points and routers for reliable on-site wireless connectivity.</li>
+            <li>Developed the Datastation App to scan library books and sync them over the network into the robot's database, handling 200+ book scans in a single sync.</li>
+            <li>Tested and debugged hardware-software integration, resolving syncing issues between the scanning app and the robot's onboard systems.</li>
+          </ul>
+
+          <div className="flex flex-wrap gap-2">
+            <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
+            <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Raspberry Pi</span>
+            <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">SQLite</span>
+            <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Jira</span>
+            <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Networking</span>
+          </div>
+        </div>
+
+        <div className="border border-slate-200 rounded-xl p-6 space-y-3 mt-6">
+          <div>
             <h3 className="text-lg font-semibold text-slate-900">Automation Intern</h3>
-            {/* EDIT: Add your internship dates, e.g. "Jun 2023 – Aug 2023" */}
             <p className="text-slate-600">Galanz Bottlers</p>
+            <p className="text-slate-500 text-sm">Oct 2023 – Dec 2023</p>
           </div>
 
           <ul className="list-disc list-outside pl-5 space-y-2 text-slate-600 text-sm leading-relaxed">
@@ -166,25 +190,42 @@ export default function Portfolio() {
               <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">MySQL</span>
             </div>
 
-            {/* EDIT: Demo video (YouTube embed) */}
-            <div className="relative aspect-video rounded-lg overflow-hidden border border-slate-200">
-              <iframe
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/YGb23V2sEFM"
-                title="AI-powered expenses bot tracker demo"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-
             {/* EDIT: Your GitHub link for this project */}
             <a href="https://github.com/sanzhar-kuatov/AI-Powered-Telegram-Expense-Tracker-Bot"
                className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
               View on GitHub →
             </a>
+            <ProjectDemoButton videoId="YGb23V2sEFM" title="AI-powered expenses bot tracker demo" />
           </div>
 
-          {/* ── PROJECT 2 ── */}
+          {/* ── PROJECT 2 ── Copy this block to add more projects */}
+          <div className="border border-slate-200 rounded-xl p-6 space-y-3">
+
+            {/* EDIT: Project name */}
+            <h3 className="text-lg font-semibold text-slate-900">Datastation App</h3>
+
+            {/* EDIT: One sentence describing the project and what you learned */}
+            <p className="text-slate-600 text-sm leading-relaxed">
+             Designed and developed an app for Datastation, a device that scans library books and syncs them over the network into a library robot's database - handling 200+ book scans in a single sync.
+            </p>
+
+            {/* EDIT: Technologies used in this project */}
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Raspberry Pi</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">SQLite</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">NFS</span>
+            </div>
+
+            {/* EDIT: Your GitHub link for this project */}
+            <a href="https://github.com/sanzhar-kuatov/datastation_gui"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
+              View on GitHub →
+            </a>
+            <ProjectDemoButton videoId="Ltjs949a8hU" title="Datastation App demo" />
+          </div>
+
+          {/* ── PROJECT 3 ── */}
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
@@ -209,7 +250,7 @@ export default function Portfolio() {
             </a>
           </div>
 
-          {/* ── PROJECT 3 ── Copy this block to add more projects */}
+          {/* ── PROJECT 4 ── Copy this block to add more projects */}
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
@@ -234,7 +275,7 @@ export default function Portfolio() {
             </a>
           </div>
 
-          {/* ── PROJECT 4 ── Copy this block to add more projects */}
+          {/* ── PROJECT 5 ── Copy this block to add more projects */}
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
@@ -254,43 +295,6 @@ export default function Portfolio() {
 
             {/* EDIT: Your GitHub link for this project */}
             <a href="https://github.com/sanzhar-kuatov/happy_birthday_sender"
-               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
-              View on GitHub →
-            </a>
-          </div>
-
-          {/* ── PROJECT 5 ── Copy this block to add more projects */}
-          <div className="border border-slate-200 rounded-xl p-6 space-y-3">
-
-            {/* EDIT: Project name */}
-            <h3 className="text-lg font-semibold text-slate-900">Datastation App</h3>
-
-            {/* EDIT: One sentence describing the project and what you learned */}
-            <p className="text-slate-600 text-sm leading-relaxed">
-             Designed and developed an app for Datastation, a device that scans library books and syncs them over the network into a library robot's database - handling 200+ book scans in a single sync.
-            </p>
-
-            {/* EDIT: Technologies used in this project */}
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Raspberry Pi</span>
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">SQLite</span>
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">NFS</span>
-            </div>
-
-            {/* EDIT: Demo video (YouTube embed) */}
-            <div className="relative aspect-video rounded-lg overflow-hidden border border-slate-200">
-              <iframe
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/Ltjs949a8hU"
-                title="Datastation App demo"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-
-            {/* EDIT: Your GitHub link for this project */}
-            <a href="https://github.com/sanzhar-kuatov/datastation_gui"
                className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
               View on GitHub →
             </a>
