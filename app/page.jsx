@@ -326,7 +326,7 @@ export default function Portfolio() {
             </a>
             <a href="https://gemmove-website.vercel.app/"
                className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
-              View Demo →
+              View Website →
             </a>
           </div>
 
