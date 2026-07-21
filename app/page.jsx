@@ -162,6 +162,9 @@ export default function Portfolio() {
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Rest API</span>
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Git</span>
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">AI</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">scikit-learn</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Pandas</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Flask</span>
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Razorpay</span>
         </div>
       </section>
