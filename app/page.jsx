@@ -176,6 +176,36 @@ export default function Portfolio() {
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
+            <h3 className="text-lg font-semibold text-slate-900">Used Car Price Predictor</h3>
+
+            {/* EDIT: One sentence describing the project and what you learned */}
+            <p className="text-slate-600 text-sm leading-relaxed">
+             Cleaned and engineered features from a ~19k-listing scraped used-car dataset, then trained and evaluated a scikit-learn regression pipeline (median error ≈14%, R² ≈0.71) served through a Flask web app where users enter car details and get an instant price estimate.
+            </p>
+
+            {/* EDIT: Technologies used in this project */}
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">scikit-learn</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Pandas</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Flask</span>
+            </div>
+
+            {/* EDIT: Your GitHub link for this project */}
+            <a href="https://github.com/sanzhar-kuatov/Car-Price-Prediction-"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
+              View on GitHub →
+            </a>
+            <a href="https://car-price-prediction-beta.vercel.app/" target="_blank" rel="noopener noreferrer"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
+              View Demo →
+            </a>
+          </div>
+
+          {/* ── PROJECT 2 ── Copy this block to add more projects */}
+          <div className="border border-slate-200 rounded-xl p-6 space-y-3">
+
+            {/* EDIT: Project name */}
             <h3 className="text-lg font-semibold text-slate-900">AI-powered expenses bot tracker</h3>
 
             {/* EDIT: One sentence describing the project and what you learned */}
@@ -198,7 +228,7 @@ export default function Portfolio() {
             <ProjectDemoButton videoId="YGb23V2sEFM" title="AI-powered expenses bot tracker demo" />
           </div>
 
-          {/* ── PROJECT 2 ── Copy this block to add more projects */}
+          {/* ── PROJECT 3 ── Copy this block to add more projects */}
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
@@ -225,7 +255,7 @@ export default function Portfolio() {
             <ProjectDemoButton videoId="Ltjs949a8hU" title="Datastation App demo" />
           </div>
 
-          {/* ── PROJECT 3 ── */}
+          {/* ── PROJECT 4 ── */}
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
@@ -250,7 +280,7 @@ export default function Portfolio() {
             </a>
           </div>
 
-          {/* ── PROJECT 4 ── Copy this block to add more projects */}
+          {/* ── PROJECT 5 ── Copy this block to add more projects */}
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
@@ -270,31 +300,6 @@ export default function Portfolio() {
 
             {/* EDIT: Your GitHub link for this project */}
             <a href="https://github.com/sanzhar-kuatov/Registrating-SGDC-Members"
-               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
-              View on GitHub →
-            </a>
-          </div>
-
-          {/* ── PROJECT 5 ── Copy this block to add more projects */}
-          <div className="border border-slate-200 rounded-xl p-6 space-y-3">
-
-            {/* EDIT: Project name */}
-            <h3 className="text-lg font-semibold text-slate-900">Automated Birthday Card Sender</h3>
-
-            {/* EDIT: One sentence describing the project and what you learned */}
-            <p className="text-slate-600 text-sm leading-relaxed">
-             Built a system for companies to auto-generate personalized birthday card images and distribute them via email to all departments; deployed during internship at Galanz Bottlers
-            </p>
-
-            {/* EDIT: Technologies used in this project */}
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Pandas</span>
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">MySQL</span>
-            </div>
-
-            {/* EDIT: Your GitHub link for this project */}
-            <a href="https://github.com/sanzhar-kuatov/happy_birthday_sender"
                className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
               View on GitHub →
             </a>
