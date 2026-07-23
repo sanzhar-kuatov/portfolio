@@ -4,46 +4,47 @@
 <meta charset="UTF-8">
 <title>Sanzhar Kuatov - Resume</title>
 <style>
-  @page { size: A4; margin: 15mm 18mm; }
+  @page { size: A4; margin: 11mm 16mm; }
   * { box-sizing: border-box; }
   body {
+    background: #ffffff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
     color: #334155; /* slate-700 */
-    font-size: 10.3pt;
-    line-height: 1.5;
+    font-size: 9.8pt;
+    line-height: 1.42;
     max-width: 760px;
     margin: 0 auto;
-    padding: 28px 32px;
+    padding: 20px 28px;
   }
   h1, h2, h3 { color: #0f172a; margin: 0; } /* slate-900 */
 
-  .header { display: flex; align-items: center; gap: 20px; margin-bottom: 18px; }
+  .header { display: flex; align-items: center; gap: 18px; margin-bottom: 13px; }
   .header .photo {
-    width: 92px;
-    height: 92px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
     border: 2px solid #e0e7ff; /* indigo-100 */
   }
   .header .header-text { flex: 1; text-align: left; }
-  .header h1 { font-size: 25pt; font-weight: 700; letter-spacing: -0.01em; }
-  .contact { color: #64748b; font-size: 9.5pt; margin-top: 8px; } /* slate-500 */
+  .header h1 { font-size: 23pt; font-weight: 700; letter-spacing: -0.01em; }
+  .contact { color: #64748b; font-size: 9.1pt; margin-top: 6px; } /* slate-500 */
   .contact a { color: #64748b; text-decoration: none; }
   .contact span.sep { margin: 0 8px; color: #cbd5e1; }
-  .objective { color: #475569; font-size: 9.8pt; line-height: 1.55; margin-top: 10px; } /* slate-600 */
+  .objective { color: #475569; font-size: 9.3pt; line-height: 1.45; margin-top: 7px; } /* slate-600 */
 
-  section { margin-top: 17px; }
+  section { margin-top: 12px; }
   section h2 {
     display: flex;
     align-items: center;
     gap: 7px;
-    font-size: 11pt;
+    font-size: 10.5pt;
     text-transform: uppercase;
     letter-spacing: 0.07em;
     color: #4f46e5;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
     border-bottom: 1.5px solid #e0e7ff; /* indigo-100 */
   }
   section h2::before {
@@ -56,32 +57,32 @@
   }
 
   .row { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; }
-  .row .left { color: #0f172a; font-weight: 600; font-size: 10.6pt; }
+  .row .left { color: #0f172a; font-weight: 600; font-size: 10.1pt; }
   .row .left span.org { color: #475569; font-weight: 500; }
-  .row .right { color: #64748b; font-size: 9.3pt; white-space: nowrap; }
-  .sub { color: #64748b; font-size: 9.3pt; margin-top: 1px; }
-  .subrow { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; color: #64748b; font-size: 9.3pt; margin-top: 1px; }
+  .row .right { color: #64748b; font-size: 8.9pt; white-space: nowrap; }
+  .sub { color: #64748b; font-size: 8.9pt; margin-top: 1px; }
+  .subrow { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; color: #64748b; font-size: 8.9pt; margin-top: 1px; }
 
-  ul { margin: 5px 0 0 0; padding-left: 16px; }
-  li { margin-bottom: 3.5px; }
+  ul { margin: 4px 0 0 0; padding-left: 16px; }
+  li { margin-bottom: 2.5px; }
   li::marker { color: #a5b4fc; } /* indigo-300 */
 
-  .entry { margin-bottom: 13px; }
+  .entry { margin-bottom: 10px; }
   .entry:last-child { margin-bottom: 0; }
 
-  .tags { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 5px; }
+  .tags { margin-top: 5px; display: flex; flex-wrap: wrap; gap: 4px; }
   .tags span {
     background: #eef2ff; /* indigo-50 */
     color: #4338ca; /* indigo-700 */
-    font-size: 8.3pt;
+    font-size: 8pt;
     font-weight: 600;
-    padding: 2px 9px;
+    padding: 2px 8px;
     border-radius: 999px;
   }
 
-  .skills-grid { display: grid; grid-template-columns: 130px 1fr; row-gap: 7px; column-gap: 12px; }
-  .skills-grid b { color: #0f172a; font-size: 9.8pt; }
-  .skills-grid span { font-size: 9.8pt; }
+  .skills-grid { display: grid; grid-template-columns: 130px 1fr; row-gap: 5px; column-gap: 12px; }
+  .skills-grid b { color: #0f172a; font-size: 9.3pt; }
+  .skills-grid span { font-size: 9.3pt; }
 
   @media print {
     body { padding: 0; }
@@ -96,6 +97,8 @@
       <h1>Sanzhar Kuatov</h1>
       <div class="contact">
         <a href="mailto:sanzarkuatov@gmail.com">sanzarkuatov@gmail.com</a>
+        <span class="sep">|</span>
+        <a href="tel:+601124237300">+60 11-2423 7300</a>
         <span class="sep">|</span>
         <a href="https://github.com/sanzhar-kuatov" target="_blank" rel="noopener noreferrer">github.com/sanzhar-kuatov</a>
         <span class="sep">|</span>
@@ -122,7 +125,7 @@
         <div>Sunway University</div>
         <div>Selangor, Malaysia</div>
       </div>
-      <div class="sub">GPA 3.7 · Dean's List every semester</div>
+      <div class="sub">CGPA 3.7 · Dean's List every semester</div>
     </div>
     <div class="entry">
       <div class="row">
@@ -133,7 +136,7 @@
         <div>Alma Almaty Management College</div>
         <div>Almaty, Kazakhstan</div>
       </div>
-      <div class="sub">GPA 3.6</div>
+      <div class="sub">CGPA 3.6</div>
     </div>
   </section>
 
@@ -180,6 +183,18 @@
 
     <div class="entry">
       <div class="row">
+        <div class="left">License Plate Detection &amp; OCR (PlateScan)</div>
+        <div class="right">Jul 2026</div>
+      </div>
+      <div class="sub">Personal Project</div>
+      <ul>
+        <li>Built a Flask app that detects license plates in uploaded photos with a fine-tuned YOLOv8 model, then reads the plate text via EasyOCR, returning an annotated image and per-plate confidence scores entirely in memory, containerized with Docker for deployment.</li>
+      </ul>
+      <div class="tags"><span>Python</span><span>YOLOv8</span><span>EasyOCR</span><span>Flask</span><span>Docker</span></div>
+    </div>
+
+    <div class="entry">
+      <div class="row">
         <div class="left">Used Car Price Predictor</div>
         <div class="right">Jul 2026</div>
       </div>
@@ -218,11 +233,11 @@
   <section>
     <h2>Skills</h2>
     <div class="skills-grid">
-      <b>Fundamentals</b><span>Data Structures &amp; Algorithms, Object-Oriented Programming</span>
-      <b>Programming Languages</b><span>Python, SQL, Java, JavaScript, TypeScript, PHP</span>
-      <b>Tools &amp; Platforms</b><span>REST APIs, MySQL, Git, Telegram Bot API, Node.js, Flask, Claude AI / LLM integration, Razorpay</span>
-      <b>Data &amp; ML</b><span>Pandas, scikit-learn, Jupyter</span>
-      <b>Deployment &amp; Hosting</b><span>Vercel, Namecheap, Hostinger</span>
+      <b>Fundamentals</b><span>Data Structures &amp; Algorithms (Proficient), Object-Oriented Programming (Proficient)</span>
+      <b>Programming Languages</b><span>Python (Proficient), SQL (Proficient), PHP (Intermediate), JavaScript/TypeScript (Beginner), Java (Intermediate)</span>
+      <b>Tools &amp; Platforms</b><span>REST APIs (Proficient), MySQL (Proficient), Git (Intermediate), Telegram Bot API (Proficient), Flask (Intermediate), Node.js (Beginner), Claude AI / LLM Integration (Intermediate), Razorpay Payment Gateway (Familiar)</span>
+      <b>Data &amp; ML</b><span>Pandas (Intermediate), scikit-learn (Intermediate), YOLOv8 (Familiar), EasyOCR (Familiar), Jupyter (Familiar)</span>
+      <b>Deployment &amp; Hosting</b><span>Vercel, Docker, Namecheap, Hostinger (Familiar)</span>
     </div>
   </section>
 
@@ -230,7 +245,7 @@
     <h2>Languages</h2>
     <div class="skills-grid">
       <b>English</b><span>Fluent</span>
-      <b>Chinese</b><span>HSK 1</span>
+      <b>Chinese</b><span>HSK 1 (Elementary Proficiency)</span>
       <b>Russian</b><span>Native</span>
       <b>Kazakh</b><span>Native</span>
     </div>
