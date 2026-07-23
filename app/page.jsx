@@ -338,6 +338,33 @@ export default function Portfolio() {
             </a>
           </div>
 
+          {/* ── PROJECT 7 ── Copy this block to add more projects */}
+          <div className="border border-slate-200 rounded-xl p-6 space-y-3">
+
+            {/* EDIT: Project name */}
+            <h3 className="text-lg font-semibold text-slate-900">License Plate Detection & OCR (PlateScan)</h3>
+
+            {/* EDIT: One sentence describing the project and what you learned */}
+            <p className="text-slate-600 text-sm leading-relaxed">
+             Built a Flask app that detects license plates in uploaded photos with a fine-tuned YOLOv8 model, then reads the plate text with EasyOCR, returning an annotated image and per-plate confidence scores entirely in memory.
+            </p>
+
+            {/* EDIT: Technologies used in this project */}
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Flask</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">YOLOv8</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">EasyOCR</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Docker</span>
+            </div>
+
+            {/* EDIT: Your GitHub link for this project */}
+            <a href="https://github.com/sanzhar-kuatov/Car-Plate-Reader"
+               className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
+              View on GitHub →
+            </a>
+          </div>
+
         </div>
       </section>
 
